@@ -2,3 +2,11 @@ dist
 node_modules
 .parcel-cache
 .cache
+
+# yarn 2 zero installs
+.yarn/*
+!.yarn/cache
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
